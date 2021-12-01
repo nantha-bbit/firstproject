@@ -1,0 +1,244 @@
+0000.060 () Opened log file at time: Mon, 08 Nov 2021 05:39:10 +0000 on https://localhost/casino
+0000.061 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.16.47.25 WP: 5.8.1 PHP: 7.3.29 (apache2handler, Windows NT LAPTOP-OJUKUJKJ 10.0 build 19042 (Windows 10) AMD64) MySQL: 10.4.20-MariaDB WPLANG: en_US Server: Apache/2.4.48 (Win64) OpenSSL/1.1.1k PHP/7.3.29 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 36.7M | 8M) multisite: N openssl: OpenSSL 1.1.1k  25 Mar 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.061 () Free space on disk containing Updraft's temporary directory: 198561.9 MB
+0000.020 () Opened log file at time: Mon, 08 Nov 2021 05:39:11 +0000 on https://localhost/casino
+0000.021 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.16.47.25 WP: 5.8.1 PHP: 7.3.29 (apache2handler, Windows NT LAPTOP-OJUKUJKJ 10.0 build 19042 (Windows 10) AMD64) MySQL: 10.4.20-MariaDB WPLANG: en_US Server: Apache/2.4.48 (Win64) OpenSSL/1.1.1k PHP/7.3.29 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 34.6M | 6M) multisite: N openssl: OpenSSL 1.1.1k  25 Mar 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.021 () Free space on disk containing Updraft's temporary directory: 198561.9 MB
+0000.034 () Ensuring WP_Filesystem is setup for a restore
+0000.035 () WP_Filesystem is setup and ready for a restore
+0000.039 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"updraft_restorer_replacesiteurl":"1","include_unspecified_tables":false,"tables_to_restore":["wp_options","wp_users","wp_usermeta","wp_actionscheduler_actions","wp_actionscheduler_claims","wp_actionscheduler_groups","wp_actionscheduler_logs","wp_commentmeta","wp_comments","wp_links","wp_postmeta","wp_posts","wp_term_relationships","wp_term_taxonomy","wp_termmeta","wp_terms","wp_give_commentmeta","wp_give_comments","wp_give_donationmeta","wp_give_donormeta","wp_give_donors","wp_give_formmeta","wp_give_logmeta","wp_give_logs","wp_give_paymentmeta","wp_nf3_action_meta","wp_nf3_actions","wp_nf3_chunks","wp_nf3_field_meta","wp_nf3_fields","wp_nf3_form_meta","wp_nf3_forms","wp_nf3_object_meta","wp_nf3_objects","wp_nf3_relationships","wp_nf3_upgrades","wp_redirection_404","wp_redirection_groups","wp_redirection_items","wp_redirection_logs","wp_wpforms_tasks_meta","wp_yoast_indexable","wp_yoast_indexable_hierarchy","wp_yoast_migrations","wp_yoast_primary_term","wp_yoast_seo_links","wp_yoast_seo_meta"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.052 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.057 () Entity: db
+0000.057 () restore_backup(backup_file=backup_2021-11-01-0015_Casino_News_Bonuses_Casino_Tip_fae08fc6d76c-db.gz, type=db, info=a:0:{}, last_one=)
+0000.058 () Unpacking backup... (backup_2021-11-01-0015_Casino_News_Bonuses_Casino_Tip_fae08fc6d76c-db.gz, 0.7 Mb)
+0000.069 () Database successfully unpacked
+0000.070 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.071 () Using direct MySQL access; value of use_mysqli is: 1
+0000.071 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0000.146 () Max packet size: 32 MB
+0000.146 () Entering maintenance mode
+0000.146 () Enabling Maintenance mode&#8230;
+0000.175 () Backup of: https://www.casinonewsbonuses.com
+0000.186 () Content URL: https://www.casinonewsbonuses.com/wp-content
+0000.186 () Uploads URL: https://www.casinonewsbonuses.com/wp-content/uploads
+0000.186 () Old table prefix: wp_
+0000.187 () Site information: multisite=0
+0000.187 () Site information: sql_mode=NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.188 () New table prefix: wp_
+0000.202 () Processing table (InnoDB): wp_options
+0000.329 () Restoring prior UD configuration (table: wp_options; keys: 98)
+0000.657 () Search and replacing table: wp_options: rows: 536
+0000.671 () Incomplete object detected in database: Analyst\Notices\NoticeFactory; Search and replace will be skipped for these entries
+0000.671 () Incomplete object detected in database: Account\AccountDataFactory; Search and replace will be skipped for these entries
+0000.733 () Incomplete object detected in database: Elementor\Core\Logger\Items\Base; Search and replace will be skipped for these entries
+0000.733 () Incomplete object detected in database: Elementor\Core\Logger\Items\JS; Search and replace will be skipped for these entries
+0000.733 () Incomplete object detected in database: Elementor\Core\Logger\Items\PHP; Search and replace will be skipped for these entries
+0000.843 () Incomplete object detected in database: FS_Plugin; Search and replace will be skipped for these entries
+0000.843 () Incomplete object detected in database: FS_Plugin_Plan; Search and replace will be skipped for these entries
+0000.843 () Incomplete object detected in database: FS_Site; Search and replace will be skipped for these entries
+0000.843 () Incomplete object detected in database: FS_User; Search and replace will be skipped for these entries
+0000.860 () Processing table (InnoDB): wp_users
+0000.928 () Search and replacing table: wp_users: rows: 2
+0000.929 () Processing table (InnoDB): wp_usermeta
+0000.981 () Search and replacing table: wp_usermeta: rows: 75
+0000.983 () Incomplete object detected in database: Yoast\WP\SEO\Presenters\Admin\Indexing_Notification_Presenter; Search and replace will be skipped for these entries
+0000.984 () Processing table (InnoDB): wp_actionscheduler_actions
+0001.042 () Search and replacing table: wp_actionscheduler_actions: rows: 81
+0001.043 () Incomplete object detected in database: ActionScheduler_IntervalSchedule; Search and replace will be skipped for these entries
+0001.044 () Incomplete object detected in database: ActionScheduler_NullSchedule; Search and replace will be skipped for these entries
+0001.047 () Processing table (InnoDB): wp_actionscheduler_claims
+0001.086 () Search and replacing table: wp_actionscheduler_claims: rows: 8
+0001.086 () Processing table (InnoDB): wp_actionscheduler_groups
+0001.136 () Search and replacing table: wp_actionscheduler_groups: rows: 2
+0001.136 () Processing table (InnoDB): wp_actionscheduler_logs
+0001.203 () Search and replacing table: wp_actionscheduler_logs: rows: 231
+0001.209 () Processing table (InnoDB): wp_commentmeta
+0001.267 () Search and replacing table: wp_commentmeta: rows: 0
+0001.267 () Processing table (InnoDB): wp_comments
+0001.339 () Search and replacing table: wp_comments: rows: 44
+0001.345 () Processing table (InnoDB): wp_links
+0001.391 () Search and replacing table: wp_links: rows: 0
+0001.391 () Processing table (InnoDB): wp_postmeta
+0001.584 () Database queries processed: 50 in 1.51 seconds
+0001.637 () Search and replacing table: wp_postmeta: rows: 194
+0002.854 () Processing table (InnoDB): wp_posts
+0003.025 () Skipping search/replace on GUID column in posts table
+0003.025 () Search and replacing table: wp_posts: rows: 380
+0003.443 () Processing table (InnoDB): wp_term_relationships
+0003.493 () Skipping this table: data in this table (wp_term_relationships) should not be search/replaced
+0003.493 () Processing table (InnoDB): wp_term_taxonomy
+0003.565 () Search and replacing table: wp_term_taxonomy: rows: 10
+0003.565 () Processing table (InnoDB): wp_termmeta
+0003.619 () Search and replacing table: wp_termmeta: rows: 3
+0003.619 () Processing table (InnoDB): wp_terms
+0003.660 () Search and replacing table: wp_terms: rows: 10
+0003.662 () Processing table (InnoDB): wp_give_commentmeta
+0003.692 () Search and replacing table: wp_give_commentmeta: rows: 0
+0003.692 () Processing table (InnoDB): wp_give_comments
+0003.737 () Search and replacing table: wp_give_comments: rows: 0
+0003.737 () Processing table (InnoDB): wp_give_donationmeta
+0003.782 () Search and replacing table: wp_give_donationmeta: rows: 0
+0003.783 () Processing table (InnoDB): wp_give_donormeta
+0003.824 () Search and replacing table: wp_give_donormeta: rows: 0
+0003.824 () Processing table (InnoDB): wp_give_donors
+0003.872 () Search and replacing table: wp_give_donors: rows: 0
+0003.872 () Processing table (InnoDB): wp_give_formmeta
+0003.916 () Search and replacing table: wp_give_formmeta: rows: 0
+0003.916 () Processing table (InnoDB): wp_give_logmeta
+0003.959 () Search and replacing table: wp_give_logmeta: rows: 0
+0003.959 () Processing table (InnoDB): wp_give_logs
+0004.004 () Search and replacing table: wp_give_logs: rows: 0
+0004.004 () Processing table (InnoDB): wp_give_paymentmeta
+0004.070 () Search and replacing table: wp_give_paymentmeta: rows: 0
+0004.070 () Processing table (InnoDB): wp_nf3_action_meta
+0004.138 () Search and replacing table: wp_nf3_action_meta: rows: 118
+0004.141 () Processing table (InnoDB): wp_nf3_actions
+0004.190 () Search and replacing table: wp_nf3_actions: rows: 4
+0004.190 () Processing table (InnoDB): wp_nf3_chunks
+0004.239 () Search and replacing table: wp_nf3_chunks: rows: 0
+0004.239 () Processing table (InnoDB): wp_nf3_field_meta
+0004.289 () Search and replacing table: wp_nf3_field_meta: rows: 287
+0004.296 () Processing table (InnoDB): wp_nf3_fields
+0004.330 () Database queries processed: 100 in 4.26 seconds
+0004.352 () Search and replacing table: wp_nf3_fields: rows: 4
+0004.352 () Processing table (InnoDB): wp_nf3_form_meta
+0004.406 () Search and replacing table: wp_nf3_form_meta: rows: 116
+0004.409 () Processing table (InnoDB): wp_nf3_forms
+0004.472 () Search and replacing table: wp_nf3_forms: rows: 1
+0004.473 () Processing table (InnoDB): wp_nf3_object_meta
+0004.518 () Search and replacing table: wp_nf3_object_meta: rows: 0
+0004.518 () Processing table (InnoDB): wp_nf3_objects
+0004.555 () Search and replacing table: wp_nf3_objects: rows: 0
+0004.555 () Processing table (InnoDB): wp_nf3_relationships
+0004.588 () Search and replacing table: wp_nf3_relationships: rows: 0
+0004.588 () Processing table (InnoDB): wp_nf3_upgrades
+0004.638 () Search and replacing table: wp_nf3_upgrades: rows: 1
+0004.639 () Processing table (InnoDB): wp_redirection_404
+0004.667 () Skipping this table: data in this table (wp_redirection_404) should not be search/replaced
+0004.667 () Processing table (InnoDB): wp_redirection_groups
+0004.715 () Search and replacing table: wp_redirection_groups: rows: 2
+0004.716 () Processing table (InnoDB): wp_redirection_items
+0004.766 () Search and replacing table: wp_redirection_items: rows: 0
+0004.766 () Processing table (InnoDB): wp_redirection_logs
+0004.813 () Skipping this table: data in this table (wp_redirection_logs) should not be search/replaced
+0004.813 () Processing table (InnoDB): wp_wpforms_tasks_meta
+0004.854 () Search and replacing table: wp_wpforms_tasks_meta: rows: 82
+0004.855 () Processing table (InnoDB): wp_yoast_indexable
+0004.924 () Search and replacing table: wp_yoast_indexable: rows: 162
+0005.174 () Processing table (InnoDB): wp_yoast_indexable_hierarchy
+0005.242 () Search and replacing table: wp_yoast_indexable_hierarchy: rows: 45
+0005.243 () Processing table (InnoDB): wp_yoast_migrations
+0005.296 () Search and replacing table: wp_yoast_migrations: rows: 18
+0005.297 () Processing table (InnoDB): wp_yoast_primary_term
+0005.354 () Search and replacing table: wp_yoast_primary_term: rows: 6
+0005.355 () Processing table (InnoDB): wp_yoast_seo_links
+0005.424 () Search and replacing table: wp_yoast_seo_links: rows: 151
+0005.606 () Processing table (InnoDB): wp_yoast_seo_meta
+0005.643 () Unlocking database and leaving maintenance mode
+0005.643 () Disabling Maintenance mode&#8230;
+0005.660 () Search and replacing table: wp_yoast_seo_meta: rows: 418
+0005.667 () Finished: lines processed: 148 in 5.60 seconds
+0005.668 () Cleaning up rubbish...
+0005.669 () Begin search and replace (updraftplus_restored_db)
+0005.669 () [Database-replace-site-url] Database: search and replace site URL
+0005.670 () Restored pre-migration site ID for this installation
+0005.677 () Database search and replace: replace https://www.casinonewsbonuses.com in backup dump with https://localhost/casino
+0005.677 () Database search and replace: replace http://www.casinonewsbonuses.com in backup dump with https://localhost/casino
+0005.679 () Search and replacing table: wp_actionscheduler_actions: already done
+0005.679 () Search and replacing table: wp_actionscheduler_claims: already done
+0005.679 () Search and replacing table: wp_actionscheduler_groups: already done
+0005.679 () Search and replacing table: wp_actionscheduler_logs: already done
+0005.679 () Search and replacing table: wp_commentmeta: already done
+0005.679 () Search and replacing table: wp_comments: already done
+0005.680 () Search and replacing table: wp_give_commentmeta: already done
+0005.680 () Search and replacing table: wp_give_comments: already done
+0005.680 () Search and replacing table: wp_give_donationmeta: already done
+0005.680 () Search and replacing table: wp_give_donormeta: already done
+0005.680 () Search and replacing table: wp_give_donors: already done
+0005.680 () Search and replacing table: wp_give_formmeta: already done
+0005.680 () Search and replacing table: wp_give_logmeta: already done
+0005.680 () Search and replacing table: wp_give_logs: already done
+0005.680 () Search and replacing table: wp_give_paymentmeta: already done
+0005.680 () Search and replacing table: wp_links: already done
+0005.681 () Search and replacing table: wp_nf3_action_meta: already done
+0005.681 () Search and replacing table: wp_nf3_actions: already done
+0005.681 () Search and replacing table: wp_nf3_chunks: already done
+0005.681 () Search and replacing table: wp_nf3_field_meta: already done
+0005.681 () Search and replacing table: wp_nf3_fields: already done
+0005.681 () Search and replacing table: wp_nf3_form_meta: already done
+0005.681 () Search and replacing table: wp_nf3_forms: already done
+0005.681 () Search and replacing table: wp_nf3_object_meta: already done
+0005.681 () Search and replacing table: wp_nf3_objects: already done
+0005.681 () Search and replacing table: wp_nf3_relationships: already done
+0005.681 () Search and replacing table: wp_nf3_upgrades: already done
+0005.682 () Search and replacing table: wp_options: already done
+0005.682 () Search and replacing table: wp_postmeta: already done
+0005.682 () Search and replacing table: wp_posts: already done
+0005.682 () Search and replacing table: wp_redirection_404: already done
+0005.682 () Search and replacing table: wp_redirection_groups: already done
+0005.682 () Search and replacing table: wp_redirection_items: already done
+0005.682 () Search and replacing table: wp_redirection_logs: already done
+0005.682 () Search and replacing table: wp_term_relationships: already done
+0005.682 () Search and replacing table: wp_term_taxonomy: already done
+0005.682 () Search and replacing table: wp_termmeta: already done
+0005.682 () Search and replacing table: wp_terms: already done
+0005.682 () Search and replacing table: wp_usermeta: already done
+0005.682 () Search and replacing table: wp_users: already done
+0005.682 () Search and replacing table: wp_wpforms_tasks_meta: already done
+0005.682 () Search and replacing table: wp_yoast_indexable: already done
+0005.683 () Search and replacing table: wp_yoast_indexable_hierarchy: already done
+0005.683 () Search and replacing table: wp_yoast_migrations: already done
+0005.683 () Search and replacing table: wp_yoast_primary_term: already done
+0005.683 () Search and replacing table: wp_yoast_seo_links: already done
+0005.683 () Search and replacing table: wp_yoast_seo_meta: already done
+0005.696 () Entity: plugins
+0005.696 () restore_backup(backup_file=backup_2021-11-01-0015_Casino_News_Bonuses_Casino_Tip_fae08fc6d76c-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:41:"E:\xampp\htdocs\casino/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0005.697 () Unpacking backup... (backup_2021-11-01-0015_Casino_News_Bonuses_Casino_Tip_fae08fc6d76c-plugins.zip, 24.4 MB)
+0005.709 () Unzipping backup_2021-11-01-0015_Casino_News_Bonuses_Casino_Tip_fae08fc6d76c-plugins.zip to E:/xampp/htdocs/casino/wp-content/upgrade/5198856e/ using UpdraftPlus_ZipArchive, starting index 0
+0008.462 () Unzip progress: 1002 out of 6563 files (1.1 MB, plugins/wordpress-seo/languages/yoast-components-it_IT.json)
+0023.811 () Unzip progress: 2003 out of 6563 files (11.5 MB, plugins/wordpress-seo/src/presenters/debug/.htaccess)
+0039.436 () Unzip progress: 2819 out of 6563 files (31.3 MB, plugins/elementor/includes/widgets/image-gallery.php)
+0053.179 () Unzip progress: 3820 out of 6563 files (50.1 MB, plugins/wpforms-lite/vendor/symfony/css-selector/Exception/InternalErrorException.php)
+0068.130 () Unzip progress: 4821 out of 6563 files (55.3 MB, plugins/updraftplus/vendor/yahnis-elsts/plugin-update-checker/Puc/v4p10/StateStore.php)
+0081.806 () Unzip progress: 5822 out of 6563 files (62.1 MB, plugins/updraftplus/includes/PEAR/HTTP/WebDAV/Tools/_parse_propfind_response.php)
+0097.446 () Unzip progress: 6506 out of 6563 files (71.7 MB, plugins/menu-image/freemius/templates/debug/plugins-themes-sync.php)
+0099.709 () Unzip progress: 6563 out of 6563 files (72.1 MB, plugins/insert-headers-and-footers/views/.htaccess)
+0099.712 () Moving old data: filesystem method / updraft_dir is potentially possible
+0099.712 () Moving old data: can potentially use wp_filesystem method / -old
+0099.712 () Moving old data out of the way...
+0099.826 () Top-level entities being moved: akismet, hello.php, index.php, updraftplus
+0099.831 () Moving unpacked backup into place...
+0100.213 () Top-level entities being moved: .htaccess, akismet, all-404-redirect-to-homepage, astra-sites, content-views-query-and-display-post-page, elementor, error_log, index.php, insert-headers-and-footers, menu-image, redirection, updraftplus, wordpress-seo, wp-super-cache, wpforms-lite
+0100.229 () Cleaning up rubbish...
+0100.231 () [W3 Super Cache] Disabled this plugin: %s: re-activate it manually when you are ready.
+0100.235 () Entity: themes
+0100.235 () restore_backup(backup_file=backup_2021-11-01-0015_Casino_News_Bonuses_Casino_Tip_fae08fc6d76c-themes.zip, type=themes, info=a:2:{s:4:"path";s:40:"E:\xampp\htdocs\casino/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=)
+0100.235 () Unpacking backup... (backup_2021-11-01-0015_Casino_News_Bonuses_Casino_Tip_fae08fc6d76c-themes.zip, 6.8 MB)
+0100.236 () Unzipping backup_2021-11-01-0015_Casino_News_Bonuses_Casino_Tip_fae08fc6d76c-themes.zip to E:/xampp/htdocs/casino/wp-content/upgrade/1b67a37a/ using UpdraftPlus_ZipArchive, starting index 0
+0109.091 () Unzip progress: 1002 out of 1517 files (11.1 MB, themes/astra/inc/customizer/custom-controls/assets/css/unminified/responsive-spacing-rtl.css)
+0116.201 () Unzip progress: 1517 out of 1517 files (14.5 MB, themes/.htaccess)
+0116.202 () Moving old data: filesystem method / updraft_dir is potentially possible
+0116.202 () Moving old data: can potentially use wp_filesystem method / -old
+0116.202 () Moving old data out of the way...
+0116.232 () Top-level entities being moved: index.php, twentynineteen, twentytwenty, twentytwentyone
+0116.234 () Moving unpacked backup into place...
+0116.332 () Top-level entities being moved: .htaccess, astra, index.php, twentyseventeen, twentytwenty, twentytwentyone
+0116.337 () Cleaning up rubbish...
+0116.344 () Entity: uploads
+0116.344 () restore_backup(backup_file=backup_2021-11-01-0015_Casino_News_Bonuses_Casino_Tip_fae08fc6d76c-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:41:"E:\xampp\htdocs\casino/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0116.344 () Unpacking backup... (backup_2021-11-01-0015_Casino_News_Bonuses_Casino_Tip_fae08fc6d76c-uploads.zip, 45.3 MB)
+0116.345 () Unzipping backup_2021-11-01-0015_Casino_News_Bonuses_Casino_Tip_fae08fc6d76c-uploads.zip to E:/xampp/htdocs/casino/wp-content/upgrade/a0128ccc/ using UpdraftPlus_ZipArchive, starting index 0
+0119.442 () Unzip progress: 743 out of 743 files (45.2 MB, uploads/.htaccess)
+0119.443 () Moving old data: filesystem method / updraft_dir is potentially possible
+0119.443 () Moving old data: can potentially use wp_filesystem method / -old
+0119.443 () Moving old data out of the way...
+0119.445 () Moving unpacked backup into place...
+0119.496 () Cleaning up rubbish...
+0119.500 () Entity: others
+0119.500 () restore_backup(backup_file=backup_2021-11-01-0015_Casino_News_Bonuses_Casino_Tip_fae08fc6d76c-others.zip, type=others, info=a:2:{s:4:"path";s:33:"E:\xampp\htdocs\casino/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0119.500 () Unpacking backup... (backup_2021-11-01-0015_Casino_News_Bonuses_Casino_Tip_fae08fc6d76c-others.zip, 0 MB)
+0119.501 () Unzipping backup_2021-11-01-0015_Casino_News_Bonuses_Casino_Tip_fae08fc6d76c-others.zip to E:/xampp/htdocs/casino/wp-content/upgrade/f3d8f3d1/ using UpdraftPlus_ZipArchive, starting index 0
+0119.529 () Unzip progress: 7 out of 7 files (4.1 KB, mu-plugins/.htaccess)
+0119.534 () Cleaning up rubbish...
+0119.555 () Restore successful!
+0119.555 () Restore successful

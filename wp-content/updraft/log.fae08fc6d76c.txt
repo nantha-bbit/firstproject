@@ -1,0 +1,6 @@
+0000.000 (4) Opened log file at time: Mon, 08 Nov 2021 05:40:11 +0000 on https://localhost/casino
+0000.002 (4) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.16.47.25 WP: 5.8.1 PHP: 7.3.29 (apache2handler, Windows NT LAPTOP-OJUKUJKJ 10.0 build 19042 (Windows 10) AMD64) MySQL: 10.4.20-MariaDB WPLANG: en_US Server: Apache/2.4.48 (Win64) OpenSSL/1.1.1k PHP/7.3.29 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 26.8M | 2M) multisite: N openssl: OpenSSL 1.1.1k  25 Mar 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.003 (4) Free space on disk containing Updraft's temporary directory: 198469 MB
+0000.015 (4) Requesting backup semaphore lock (fae08fc6d76c)
+0000.017 (4) [Lock (updraft_lock_fae08fc6d76c, wp_options) acquired] info
+0000.026 (4) This backup task (fae08fc6d76c) is either complete or began over 2 days ago: ending (1636350011.8672, ) (existing jobdata keys: )
